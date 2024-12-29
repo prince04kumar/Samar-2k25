@@ -5,19 +5,24 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import HoverAudio from '../../assets/audio/buttonHoverGTA.mp3';
 
-import ocImage from '../../assets/merchandise/oc_remove.png';
-import hcImage from '../../assets/merchandise/hc_remove.png';
-import ccImage from '../../assets/merchandise/cc_remove.png';
-import exeImage from '../../assets/merchandise/exe_remove.png';
-import SizeChart from '../../assets/sizeChart.jpg';
-import CricketBackground from '../../assets/customIllustration/cricketBackground.jpg';
+// import ocImage from '../../assets/merchandise/oc_remove.png';
+// import hcImage from '../../assets/merchandise/hc_remove.png';
+// import ccImage from '../../assets/merchandise/cc_remove.png';
+// import exeImage from '../../assets/merchandise/exe_remove.png';
+// import SizeChart from '../../assets/sizeChart.jpg';
+// import CricketBackground from '../../assets/customIllustration/cricketBackground.jpg';
 
 import '../../../globalStyles.css';
 
 function Merchandise() {
+	const ocImage = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453595/oc_remove_q23mtc.png";
+	const hcImage = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453589/hc_remove_pxchje.png";
+	const ccImage = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453587/cc_remove_wxia7k.png";
+	const exeImage = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453596/exe_remove_rm6sw4.png";
+	const SizeChart = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453589/sizeChart_w2gtv9.jpg";
+	const CricketBackground = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453574/cricketBackground_hp7rdf.jpg"
     const [count, setCount] = useState(1);
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const hoverAudioRef = useRef(new Audio(HoverAudio));
     
     const handleHover = () => {

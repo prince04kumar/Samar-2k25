@@ -2,11 +2,14 @@ import React from 'react';
 import './timeline.css';
 
 // import images
-import htmlimg from '../../../../src/assets/timeline/shaurya.png';
-import javascriptimg from '../../../../src/assets/timeline/samar.png';
-import reactjsimg from '../../../../src/assets/timeline/accc.png';
-import nodejsimg from '../../../../src/assets/timeline/samar.png';
-
+// import htmlimg from '../../../../src/assets/timeline/shaurya.png';
+// import javascriptimg from '../../../../src/assets/timeline/samar.png';
+// import reactjsimg from '../../../../src/assets/timeline/accc.png';
+// import nodejsimg from '../../../../src/assets/timeline/samar.png';
+const htmlimg = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453615/shaurya_vrxo9f.png"
+const reactjsimg = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453614/accc_hyt2kn.png"
+const nodejsimg  = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453615/samar_u45zp5.png"
+const javascriptimg = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453615/samar_u45zp5.png"
 
 const Timeline = () => {
 

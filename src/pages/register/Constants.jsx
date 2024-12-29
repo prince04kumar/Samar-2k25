@@ -1,6 +1,9 @@
-import cricket from "../../assets/register/cricket.jpg";
-import badminton from "../../assets/register/badminton.jpg";
-import badminton2 from "../../assets/register/badminton2.jpeg";
+// import cricket from "../../assets/register/cricket.jpg";
+const cricket = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453590/cricket_zneued.jpg";
+// import badminton from "../../assets/register/badminton.jpg";
+const badminton = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453587/badminton_jdifon.jpg"
+// import badminton2 from "../../assets/register/badminton2.jpeg";
+const badminton2 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453588/badminton2_aogngi.jpg"
 
 const BADMINTON_SINGLES_RULES = [
   "Participants must be current students of the college.",

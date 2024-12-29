@@ -1,15 +1,25 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import img1 from '../../../assets/sponsors/redbull.png';
-import img2 from '../../../assets/sponsors/sub.png';
-import img3 from '../../../assets/sponsors/hut.png';
-import img4 from '../../../assets/sponsors/mac.png';
-import img5 from '../../../assets/sponsors/suzu.png';
-import img7 from '../../../assets/sponsors/sbi.png';
-import img8 from '../../../assets/sponsors/lic.png';
-import img9 from '../../../assets/sponsors/dom.png';
-import img10 from '../../../assets/sponsors/ola.png';
+// import img1 from '../../../assets/sponsors/redbull.png';
+// import img2 from '../../../assets/sponsors/sub.png';
+// import img3 from '../../../assets/sponsors/hut.png';
+// import img4 from '../../../assets/sponsors/mac.png';
+// import img5 from '../../../assets/sponsors/suzu.png';
+// import img7 from '../../../assets/sponsors/sbi.png';
+// import img8 from '../../../assets/sponsors/lic.png';
+// import img9 from '../../../assets/sponsors/dom.png';
+// import img10 from '../../../assets/sponsors/ola.png';
 import './sponsors.css';
+const img1 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453592/redbull_vfaral.png";
+const img2 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453593/sub_uewwg3.png";
+const img3 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453592/hut_spcwai.png";
+const img4 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453593/mac_mlyjbl.png";
+const img5 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453593/suzu_y3gnhh.png";
+const img6 = "";
+const img7 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453592/sbi_osb2ig.png";
+const img8 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453591/lic_gkucqw.png";
+const img9 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453591/dom_cmgn4r.png";
+const img10 = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453592/ola_zw62gg.png";
 
 function Sponsors() {
   return (

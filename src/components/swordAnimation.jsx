@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import swordImage from '../assets/illustration/sword.png';
-
+ import swordImage from '../assets/illustration/sword.png';
+// const swordImage = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453610/sword_dysppw.png"
 gsap.registerPlugin(ScrollTrigger);
 
 const SwordAnimation = () => {

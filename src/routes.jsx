@@ -39,7 +39,7 @@ function RoutesConfig() {
     setShowHomepage(3); 
   };
 
-  const videoSource = "/src/assets/customIllustration/uni1033.mp4";
+  const videoSource = "https://res.cloudinary.com/dujmw5q9s/video/upload/v1735453732/uni1033_x88wnx.mp4";
 
   return (
     <Router>

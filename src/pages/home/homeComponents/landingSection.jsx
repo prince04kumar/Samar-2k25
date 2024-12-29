@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import '../homeStyles.css'
 
 import BackgroundFall from '../../../assets/illustration/backgroundFall.png';
-import Soldier from '../../../assets/illustration/soldier.png';
+// import Soldier from '../../../assets/illustration/soldier.png';
 import SamarLogo from '../../../assets/logo/samarLogoWhite.png';
 import SamarIntroText from '../../../assets/customIllustration/samarIntroText.png';
 
@@ -16,6 +16,7 @@ function LandingSection() {
     const handleHover = () => {
         hoverAudioRef.current.play();
     };
+const Soldier = "https://res.cloudinary.com/dujmw5q9s/image/upload/v1735453583/soldier_tc0jie.png" // Soldier image inserted
 
     return (
         <>
